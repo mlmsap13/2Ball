@@ -39,6 +39,10 @@ var par2;
 var t;
 
 function setup(){
+  
+  alert('Welcome to 2Ball. The Player on the left uses WASD keys to control the red ball and the person on the right uses the arrow keys to control the blue ball. The goal is to collect 15 white balls before the other person.');
+  alert('Each colored square is a power up for a short time. Green: Speeds you up. Purple: Reverses opponents controls. Orange: Slows down opponent. Good Luck!')
+  
   rectMode(CENTER);
   createCanvas(windowWidth,windowHeight);
   colorMode(HSB);
